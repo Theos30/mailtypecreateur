@@ -1,0 +1,112 @@
+
+body
+{
+   width: 710px;
+   margin-top: 0px;
+   margin: auto;
+   margin-bottom: 0px;
+   background-color: #373cf5;
+height:  800px;
+}
+
+
+#corps
+{  margin-left: 20px;
+   margin-right: 20px;
+   padding: 5px;
+   color: blue;
+   background-color: white;
+   background-repeat: repeat-x;  
+   border: 2px solid black;
+   text-align: center;
+   margin: auto;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 12px;
+}
+
+
+div{padding-top: 10px;
+padding-bottom: 0px;
+padding-top: 0px;
+	text-align: center;
+	font-family: 'Fira Sans', sans-serif;
+	background-color: white;
+}
+
+
+
+hr{
+	width: 400px;
+	line-height: 14px;
+	margin:  auto;
+	
+}
+
+
+
+h5 img{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 16px;
+	width: 350px;
+}
+h4 img{
+	width: 700px;
+	padding-top: 0px;
+	padding-bottom: 50px;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 16px;
+}
+
+
+h6 img {width: 700px;
+padding-top: 0px;
+	padding-bottom: 50px;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 16px;
+	}
+
+h2{font-family: 'Fira Sans', sans-serif;
+font-size: 16px;
+}
+
+.container{width: 700px;
+	text-align: center;
+}
+
+@media (max-width: 600px)
+{.container{width: 540px;
+}
+
+@media (max-width: 400px)
+{.container{width: 300px;
+text-align:  center}
+
+@media (max-width: 300px)
+{.container{width: 200px;
+text-align:  center}
+
+@media (max-width: 200px)
+{.container{width: 100px;
+	margin: auto;
+text-align:  center;}
+
+@media(max-width: 50px)
+{.card {width: 20px;
+}
+
+
+div{display:block;
+  float:left;
+  border-style: solid;
+  border-color: grey;
+  width:49%;
+  height:49%;
+}
+ 
+img {
+  max-width:100%;
+  max-height:100%;
+}
+
